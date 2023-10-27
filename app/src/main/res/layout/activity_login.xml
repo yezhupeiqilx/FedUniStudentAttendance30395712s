@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="16dp"
+    android:padding="16dp"
+    android:background="#FFDBCC"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="10dp"
+    android:orientation="vertical">
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:gravity="center"
+android:orientation="vertical"
+android:padding="16dp">
+
+
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="User ID">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etLoginUserId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+</com.google.android.material.textfield.TextInputLayout>
+
+<!-- Password Field -->
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Password"
+    android:layout_marginTop="16dp"
+    app:passwordToggleEnabled="true">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etLoginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword" />
+</com.google.android.material.textfield.TextInputLayout>
+
+<!-- Login Button -->
+<Button
+    android:id="@+id/btnLogin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Login"
+    android:layout_marginTop="24dp"
+    android:textColor="@color/white"
+    android:background="#9dc2de" />
+
+</LinearLayout>
+    </LinearLayout>

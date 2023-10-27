@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/studentNameLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Student Name"
+            style="@style/TextAppearance.MaterialComponents.Body1" />
+
+        <Button
+            android:textColor="@color/white"
+            android:background="#9dc2de"
+            android:id="@+id/studentRemoveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete" />
+
+    </LinearLayout>
+
+</LinearLayout>
